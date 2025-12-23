@@ -4949,7 +4949,7 @@
 	)
 	(text "Servo"
 		(exclude_from_sim no)
-		(at 239.268 94.488 0)
+		(at 238.76 94.488 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5080,7 +5080,7 @@
 		(uuid "1872f99f-cc28-4f3f-9c29-4ca7994ae067")
 	)
 	(junction
-		(at 247.65 59.69)
+		(at 247.65 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a1df0cf-5fa5-4c5e-9d76-3ebde1c8395b")
@@ -5509,7 +5509,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 59.69) (xy 247.65 59.69)
+			(xy 236.22 57.15) (xy 247.65 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6089,7 +6089,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 58.42) (xy 247.65 59.69)
+			(xy 247.65 55.88) (xy 247.65 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6199,7 +6199,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 62.23) (xy 251.46 63.5)
+			(xy 251.46 59.69) (xy 251.46 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6419,7 +6419,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 59.69) (xy 251.46 59.69)
+			(xy 247.65 57.15) (xy 251.46 57.15)
 		)
 		(stroke
 			(width 0)
@@ -6888,7 +6888,7 @@
 		(uuid "289e4ee1-c397-4e8d-813b-e9af26bf20c9")
 	)
 	(label "B_RELEASE"
-		(at 236.22 59.69 0)
+		(at 236.22 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9471,7 +9471,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 247.65 50.8 0)
+		(at 247.65 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9479,7 +9479,7 @@
 		(dnp no)
 		(uuid "57e6a0f0-9853-4621-97c0-fb1a302b47f2")
 		(property "Reference" "#PWR05"
-			(at 247.65 54.61 0)
+			(at 247.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9488,7 +9488,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 251.46 50.038 0)
+			(at 251.46 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9496,7 +9496,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 247.65 50.8 0)
+			(at 247.65 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9505,7 +9505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 247.65 50.8 0)
+			(at 247.65 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9514,7 +9514,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 247.65 50.8 0)
+			(at 247.65 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12323,7 +12323,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 63.5 0)
+		(at 251.46 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12332,7 +12332,7 @@
 		(fields_autoplaced yes)
 		(uuid "e79d252b-5c49-4785-a191-8f55f3fa6846")
 		(property "Reference" "#PWR01"
-			(at 251.46 69.85 0)
+			(at 251.46 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12341,7 +12341,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 68.58 0)
+			(at 251.46 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12349,7 +12349,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 63.5 0)
+			(at 251.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12358,7 +12358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 63.5 0)
+			(at 251.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12367,7 +12367,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 63.5 0)
+			(at 251.46 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12522,7 +12522,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 247.65 54.61 0)
+		(at 247.65 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12530,7 +12530,7 @@
 		(dnp no)
 		(uuid "ebab7a4a-0f02-4488-a25d-457f4c80aa52")
 		(property "Reference" "R11"
-			(at 249.174 53.594 0)
+			(at 249.174 51.054 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12539,7 +12539,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 249.174 55.88 0)
+			(at 249.174 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12548,7 +12548,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 245.872 54.61 90)
+			(at 245.872 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12557,7 +12557,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 247.65 54.61 0)
+			(at 247.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12566,7 +12566,7 @@
 			)
 		)
 		(property "Description" "Trigger button pulldown"
-			(at 247.65 54.61 0)
+			(at 247.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12987,7 +12987,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 256.54 62.23 180)
+		(at 256.54 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12995,7 +12995,7 @@
 		(dnp no)
 		(uuid "f848a649-d298-4ee1-956e-255d8d6fd066")
 		(property "Reference" "J6"
-			(at 257.048 59.69 0)
+			(at 257.048 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13004,7 +13004,7 @@
 			)
 		)
 		(property "Value" "Release Button"
-			(at 235.966 61.976 0)
+			(at 235.966 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13013,7 +13013,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 62.23 0)
+			(at 256.54 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13022,7 +13022,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 62.23 0)
+			(at 256.54 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13031,7 +13031,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 256.54 62.23 0)
+			(at 256.54 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13198,7 +13198,7 @@
 			)
 		)
 		(instances
-			(project "pill_dispenser"
+			(project "mainboard"
 				(path "/57f2b6ac-3611-4b16-b8a1-8e91b00e0208"
 					(page "2")
 				)
