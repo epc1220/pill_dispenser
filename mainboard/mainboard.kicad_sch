@@ -4970,7 +4970,7 @@
 	)
 	(text "Extra Pins"
 		(exclude_from_sim no)
-		(at 135.382 15.494 0)
+		(at 145.542 19.304 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5309,7 +5309,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 57.15) (xy 139.7 57.15)
+			(xy 156.21 60.96) (xy 149.86 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5419,7 +5419,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 30.48) (xy 151.13 33.02)
+			(xy 161.29 34.29) (xy 161.29 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6249,7 +6249,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 30.48) (xy 139.7 30.48)
+			(xy 161.29 34.29) (xy 149.86 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6808,7 +6808,7 @@
 		(uuid "13e64a44-9aa3-4964-a163-c345b24707b5")
 	)
 	(label "GPIO10"
-		(at 139.7 44.45 0)
+		(at 149.86 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7008,7 +7008,7 @@
 		(uuid "563e39a2-6955-4c94-a35b-e468240d6c4d")
 	)
 	(label "GPIO14"
-		(at 139.7 54.61 0)
+		(at 149.86 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7088,7 +7088,7 @@
 		(uuid "787f0936-9f8e-4614-a0d3-2ba3c4da8dcf")
 	)
 	(label "GPIO27_ADC1"
-		(at 139.7 27.94 0)
+		(at 149.86 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7108,7 +7108,7 @@
 		(uuid "875d27bc-119d-4fcf-8904-626ed9d1e601")
 	)
 	(label "GPIO12"
-		(at 139.7 49.53 0)
+		(at 149.86 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7118,7 +7118,7 @@
 		(uuid "8cac3911-9351-4803-bf9f-20966a8bcf3d")
 	)
 	(label "GPIO13"
-		(at 139.7 52.07 0)
+		(at 149.86 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7158,7 +7158,7 @@
 		(uuid "95fc4042-2df0-451a-b7f9-c1eb102b6a20")
 	)
 	(label "GPIO9"
-		(at 139.7 41.91 0)
+		(at 149.86 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7218,7 +7218,7 @@
 		(uuid "a7c0e295-32c2-481b-966a-8da1e9424a53")
 	)
 	(label "GPIO26_ADC0"
-		(at 139.7 25.4 0)
+		(at 149.86 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7268,7 +7268,7 @@
 		(uuid "c3cf8624-c382-4503-96e5-0c273137caa2")
 	)
 	(label "GPIO11"
-		(at 139.7 46.99 0)
+		(at 149.86 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8658,7 +8658,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 134.62 27.94 0)
+		(at 144.78 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8667,7 +8667,7 @@
 		(fields_autoplaced yes)
 		(uuid "31f44caf-19da-4994-8091-10f8a86ca9ed")
 		(property "Reference" "J2"
-			(at 135.255 20.32 0)
+			(at 145.415 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8675,7 +8675,7 @@
 			)
 		)
 		(property "Value" "ADC Pins"
-			(at 135.255 22.86 0)
+			(at 145.415 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8683,7 +8683,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 134.62 27.94 0)
+			(at 144.78 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8692,7 +8692,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 27.94 0)
+			(at 144.78 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8701,7 +8701,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 134.62 27.94 0)
+			(at 144.78 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11116,7 +11116,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 33.02 0)
+		(at 161.29 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11125,7 +11125,7 @@
 		(fields_autoplaced yes)
 		(uuid "add8373a-e5f1-4df5-98a1-6259ef10280e")
 		(property "Reference" "#PWR011"
-			(at 151.13 39.37 0)
+			(at 161.29 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11134,7 +11134,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 38.1 0)
+			(at 161.29 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11142,7 +11142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 33.02 0)
+			(at 161.29 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11151,7 +11151,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 33.02 0)
+			(at 161.29 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11160,7 +11160,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 33.02 0)
+			(at 161.29 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11970,7 +11970,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x07_Pin")
-		(at 134.62 49.53 0)
+		(at 144.78 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11979,7 +11979,7 @@
 		(fields_autoplaced yes)
 		(uuid "db4f6742-6455-46ff-971b-e0c8fabe70ec")
 		(property "Reference" "J8"
-			(at 135.255 36.83 0)
+			(at 145.415 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11987,7 +11987,7 @@
 			)
 		)
 		(property "Value" "GPIO Pins"
-			(at 135.255 39.37 0)
+			(at 145.415 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11995,7 +11995,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
-			(at 134.62 49.53 0)
+			(at 144.78 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12004,7 +12004,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 49.53 0)
+			(at 144.78 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12013,7 +12013,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 134.62 49.53 0)
+			(at 144.78 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12657,7 +12657,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 57.15 0)
+		(at 156.21 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12666,7 +12666,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0dc9a8b-b196-4f56-84a7-fc954461b49a")
 		(property "Reference" "#PWR012"
-			(at 146.05 63.5 0)
+			(at 156.21 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12675,7 +12675,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 62.23 0)
+			(at 156.21 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12683,7 +12683,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 57.15 0)
+			(at 156.21 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12692,7 +12692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 57.15 0)
+			(at 156.21 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12701,7 +12701,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 57.15 0)
+			(at 156.21 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
