@@ -2046,7 +2046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d1c38b0-7a6d-4a67-bece-943ee779a975")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 146.05 85.09 90)
 			(effects
 				(font
@@ -2062,7 +2062,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 138.43 86.868 90)
 			(effects
 				(font
@@ -2098,7 +2098,7 @@
 		(instances
 			(project "pill_dispenser"
 				(path "/57f2b6ac-3611-4b16-b8a1-8e91b00e0208/75d4254f-58df-4e98-9caa-2c4b94d613e3"
-					(reference "R19")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -2113,7 +2113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3247d6f8-b91a-4e02-9658-398a93301a3f")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 146.05 87.63 90)
 			(effects
 				(font
@@ -2129,7 +2129,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 138.43 89.408 90)
 			(effects
 				(font
@@ -2165,7 +2165,7 @@
 		(instances
 			(project "pill_dispenser"
 				(path "/57f2b6ac-3611-4b16-b8a1-8e91b00e0208/75d4254f-58df-4e98-9caa-2c4b94d613e3"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -2181,7 +2181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36d1a802-6861-4910-891f-296f95efa061")
-		(property "Reference" "U8"
+		(property "Reference" "U5"
 			(at 118.9833 62.23 0)
 			(effects
 				(font
@@ -2304,7 +2304,7 @@
 		(instances
 			(project ""
 				(path "/57f2b6ac-3611-4b16-b8a1-8e91b00e0208/75d4254f-58df-4e98-9caa-2c4b94d613e3"
-					(reference "U8")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2319,7 +2319,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "407a16f9-fcae-45a2-871f-37d6280a813f")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 146.05 82.55 90)
 			(effects
 				(font
@@ -2335,7 +2335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 138.43 84.328 90)
 			(effects
 				(font
@@ -2371,7 +2371,7 @@
 		(instances
 			(project "pill_dispenser"
 				(path "/57f2b6ac-3611-4b16-b8a1-8e91b00e0208/75d4254f-58df-4e98-9caa-2c4b94d613e3"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2387,7 +2387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "610c83c8-aab6-4cfb-9818-3c4d7a8c4ec5")
-		(property "Reference" "R22"
+		(property "Reference" "R17"
 			(at 82.55 54.6099 0)
 			(effects
 				(font
@@ -2405,7 +2405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 78.232 55.88 90)
 			(effects
 				(font
@@ -2441,7 +2441,7 @@
 		(instances
 			(project "pill_dispenser"
 				(path "/57f2b6ac-3611-4b16-b8a1-8e91b00e0208/75d4254f-58df-4e98-9caa-2c4b94d613e3"
-					(reference "R22")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2457,7 +2457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73ef9b06-b467-4470-955a-5f297156c107")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 179.07 82.55 0)
 			(effects
 				(font
@@ -2539,7 +2539,7 @@
 		(instances
 			(project ""
 				(path "/57f2b6ac-3611-4b16-b8a1-8e91b00e0208/75d4254f-58df-4e98-9caa-2c4b94d613e3"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -2555,7 +2555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79890256-2c7b-4923-aa68-d14e2684f8cf")
-		(property "Reference" "R21"
+		(property "Reference" "R16"
 			(at 72.39 54.6099 0)
 			(effects
 				(font
@@ -2573,7 +2573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 68.072 55.88 90)
 			(effects
 				(font
@@ -2609,7 +2609,7 @@
 		(instances
 			(project "pill_dispenser"
 				(path "/57f2b6ac-3611-4b16-b8a1-8e91b00e0208/75d4254f-58df-4e98-9caa-2c4b94d613e3"
-					(reference "R21")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -2643,7 +2643,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 90.932 55.88 90)
 			(effects
 				(font
@@ -2694,7 +2694,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f212b43d-4840-49d7-b7a7-4f31f1a4d5d8")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 146.05 80.01 90)
 			(effects
 				(font
@@ -2710,7 +2710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 138.43 81.788 90)
 			(effects
 				(font
@@ -2746,7 +2746,7 @@
 		(instances
 			(project ""
 				(path "/57f2b6ac-3611-4b16-b8a1-8e91b00e0208/75d4254f-58df-4e98-9caa-2c4b94d613e3"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
