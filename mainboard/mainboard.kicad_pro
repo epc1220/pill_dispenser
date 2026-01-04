@@ -54,19 +54,7 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         [
-          "malformed_courtyard|100875340|136036071|35e244e5-b4c2-4685-aa57-e19a822c7736|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|100890000|136010000|35e244e5-b4c2-4685-aa57-e19a822c7736|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|102550000|134030000|35e244e5-b4c2-4685-aa57-e19a822c7736|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|105400000|127970000|35e244e5-b4c2-4685-aa57-e19a822c7736|00000000-0000-0000-0000-000000000000",
+          "unresolved_variable|103070000|90940000|31c5a739-7ba9-42dc-b1ec-6ec8488f997a|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -468,7 +456,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pill_dispenser.kicad_pro",
+    "filename": "mainboard.kicad_pro",
     "version": 3
   },
   "net_settings": {
