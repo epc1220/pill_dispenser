@@ -1,4 +1,4 @@
-26779685841867741
+26781459549460987
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -74031,6 +74031,13 @@ PhotoDiode plastic SMD SmatDIL
 0
 3
 3
+OptoDevice
+PIRUPT_14mm
+Fork-type photointerrupter (https://everlighteurope.com/index.php?controller=attachment&id_attachment=5389)
+Photointerrupter infrared LED
+0
+4
+4
 OptoDevice
 Panasonic_APV-AQY_SSOP-4_4.45x2.65mm_P1.27mm
 https://www.panasonic-electric-works.com/cps/rde/xbcr/pew_eu_en/technical_information_photomos_en.pdf

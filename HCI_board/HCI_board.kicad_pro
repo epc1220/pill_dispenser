@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.3,
+          "height": 0.5,
+          "width": 0.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,16 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "copper_edge_clearance|137710000|138210000|8c9f413d-e1db-423c-b3ec-b8a650efba27|573269fa-acf7-44a6-93bb-d3432a4c932a",
-          ""
-        ],
-        [
-          "copper_edge_clearance|137710000|139030000|8c9f413d-e1db-423c-b3ec-b8a650efba27|0bf977c7-b8bd-40d4-a066-fd46e602daf1",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -460,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pill_dispenser_HCI.kicad_pro",
+    "filename": "HCI_board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -624,5 +615,7 @@
       "Root"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "SCREW_HOLE_DIAM": "1.2"
+  }
 }
