@@ -5582,16 +5582,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 24.13) (xy 232.41 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20b6db05-414d-478b-b9da-b2cea20d5e95")
-	)
-	(wire
-		(pts
 			(xy 259.08 143.51) (xy 259.08 138.43)
 		)
 		(stroke
@@ -5729,6 +5719,16 @@
 			(type default)
 		)
 		(uuid "341d6c3b-709f-40ac-bb80-642a8c634a76")
+	)
+	(wire
+		(pts
+			(xy 232.41 21.59) (xy 232.41 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c1e16f-6854-434e-99c0-3428b5aaf92a")
 	)
 	(wire
 		(pts
@@ -6622,6 +6622,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 21.59) (xy 219.71 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf5a1036-d022-4d25-9ebb-3a3e4b33374a")
+	)
+	(wire
+		(pts
 			(xy 251.46 143.51) (xy 259.08 143.51)
 		)
 		(stroke
@@ -6792,16 +6802,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 33.02) (xy 255.27 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6f08c47-0c3b-41b0-976c-e289c3470f1f")
-	)
-	(wire
-		(pts
 			(xy 62.23 105.41) (xy 73.66 105.41)
 		)
 		(stroke
@@ -6942,7 +6942,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 39.37) (xy 207.01 39.37)
+			(xy 204.47 39.37) (xy 208.28 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6989,16 +6989,6 @@
 			(type default)
 		)
 		(uuid "f2ca2244-2124-4ac9-83a3-9f35ec434380")
-	)
-	(wire
-		(pts
-			(xy 255.27 29.21) (xy 257.81 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f92a9180-bbdb-467f-8c2a-778a3a7d760c")
 	)
 	(wire
 		(pts
@@ -7211,12 +7201,12 @@
 		(uuid "40c2c8f3-2441-445e-acea-161c23ad5ba6")
 	)
 	(label "IR"
-		(at 207.01 39.37 0)
+		(at 208.28 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "46c1ae07-e544-4a73-a5a7-c3441f5f3f44")
 	)
@@ -7320,7 +7310,7 @@
 		)
 		(uuid "72b20bfb-569a-41b5-8315-c8e8684a31a5")
 	)
-	(label "LED_PWM"
+	(label "RED_LED"
 		(at 124.46 92.71 0)
 		(effects
 			(font
@@ -7450,8 +7440,18 @@
 		)
 		(uuid "997301e7-9d86-4237-9da1-ca9b0619501f")
 	)
+	(label "WHITE_LED"
+		(at 219.71 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9a6c0ff5-ea6b-4888-a029-f1d6ea865669")
+	)
 	(label "Buzzer"
-		(at 124.46 95.25 0)
+		(at 124.46 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7459,6 +7459,16 @@
 			(justify left bottom)
 		)
 		(uuid "a101ca2d-3e8e-4d2e-bc59-43929079b5dc")
+	)
+	(label "WHITE_LED"
+		(at 124.46 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5e5589a-fdc9-4c1e-914a-4ffd13e0ccd7")
 	)
 	(label "B_RELEASE"
 		(at 124.46 125.73 0)
@@ -7491,7 +7501,7 @@
 		(uuid "baeebf5d-1a2e-4de5-9076-dfe394603578")
 	)
 	(label "IR"
-		(at 124.46 97.79 0)
+		(at 124.46 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7531,7 +7541,7 @@
 		(uuid "c7c668ad-a3fb-4b16-8ae3-378bec41eb41")
 	)
 	(label "7-SEG_PWM"
-		(at 124.46 100.33 0)
+		(at 124.46 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7550,6 +7560,16 @@
 		)
 		(uuid "cb52ac6e-0621-4ef3-9b11-121c101fe6e4")
 	)
+	(label "RED_LED"
+		(at 232.41 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da9fd860-2af1-4eaf-bb58-f978898e1818")
+	)
 	(label "AIN2"
 		(at 124.46 90.17 0)
 		(effects
@@ -7559,16 +7579,6 @@
 			(justify left bottom)
 		)
 		(uuid "de0b0a98-0a8a-4e41-9fe4-f5288f6ae7cd")
-	)
-	(label "LED_PWM"
-		(at 222.25 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1b08dee-803d-4a51-a94f-b4f993258c63")
 	)
 	(label "GPIO10"
 		(at 124.46 113.03 0)
@@ -11899,72 +11909,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 255.27 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aea0e783-d6df-40ad-9cb6-3cfab0e5c9e6")
-		(property "Reference" "#PWR09"
-			(at 255.27 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 255.27 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef83c0a8-5122-41b5-82b3-25e415208116")
-		)
-		(instances
-			(project ""
-				(path "/57f2b6ac-3611-4b16-b8a1-8e91b00e0208"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 219.71 35.56 90)
 		(unit 1)
@@ -14006,16 +13950,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(pin "GND" output
-			(at 257.81 29.21 180)
-			(uuid "74432a8c-9192-4901-88fb-aca59c41f84e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "PWM VCC" input
