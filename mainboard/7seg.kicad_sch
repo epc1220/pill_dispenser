@@ -1434,7 +1434,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:2N7002"
+		(symbol "Transistor_FET:BSS138"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -1451,7 +1451,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N7002"
+			(property "Value" "BSS138"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1471,7 +1471,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -1481,7 +1481,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1490,7 +1490,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel Switching MOSFET"
+			(property "ki_keywords" "N-Channel MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1508,7 +1508,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "2N7002_0_1"
+			(symbol "BSS138_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -1675,7 +1675,7 @@
 					)
 				)
 			)
-			(symbol "2N7002_1_1"
+			(symbol "BSS138_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -3615,6 +3615,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 247.65 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46e65a31-b435-408d-a429-216826132bb8")
+		(property "Reference" "Q4"
+			(at 249.682 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 247.65 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 245.745 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 243.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 247.65 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "545663ae-c982-4021-912d-c257a52e8269")
+		)
+		(pin "3"
+			(uuid "9e6c4edf-5f76-43fe-9b8d-4fe7941e269d")
+		)
+		(pin "1"
+			(uuid "21500fb0-1129-4541-b2cd-fe9dc233d55b")
+		)
+		(instances
+			(project "mainboard"
+				(path "/57f2b6ac-3611-4b16-b8a1-8e91b00e0208/75d4254f-58df-4e98-9caa-2c4b94d613e3"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 144.78 69.85 270)
 		(unit 1)
@@ -3742,79 +3815,6 @@
 			(project ""
 				(path "/57f2b6ac-3611-4b16-b8a1-8e91b00e0208/75d4254f-58df-4e98-9caa-2c4b94d613e3"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 247.65 60.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a84d17d-4f77-4353-b29d-c4d1ed3eda05")
-		(property "Reference" "Q4"
-			(at 249.682 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 247.65 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 245.745 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 243.84 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 247.65 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b7bc924e-85b5-4427-9c96-314f958ab8f4")
-		)
-		(pin "3"
-			(uuid "1f0291e7-539e-475a-9d85-fcd220702a48")
-		)
-		(pin "1"
-			(uuid "4aea59ee-9173-4833-aa8d-5b65e4f32a71")
-		)
-		(instances
-			(project "mainboard"
-				(path "/57f2b6ac-3611-4b16-b8a1-8e91b00e0208/75d4254f-58df-4e98-9caa-2c4b94d613e3"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -4260,24 +4260,24 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 240.03 91.44 0)
+		(lib_id "Transistor_FET:BSS138")
+		(at 232.41 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "817197d7-7097-4356-b8f7-450a00aefcba")
-		(property "Reference" "Q6"
-			(at 237.49 89.408 90)
+		(uuid "7c236a23-cf34-413f-8cd4-47d2b8ed00ea")
+		(property "Reference" "Q3"
+			(at 234.442 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "2N7002"
-			(at 246.38 91.44 90)
+		(property "Value" "BSS138"
+			(at 232.41 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,7 +4285,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 245.11 93.345 0)
+			(at 230.505 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4295,8 +4295,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 245.11 95.25 0)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 228.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,8 +4305,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 240.03 91.44 0)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 232.41 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,91 +4315,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "a73b76b7-fea4-41fb-8e5c-92b26d278d4c")
+			(uuid "92d8a8c9-4412-4232-b452-75d9c4be08ac")
 		)
 		(pin "3"
-			(uuid "da17ffa4-a294-4c78-921c-88eed685ec63")
+			(uuid "bb9b7cf7-1b1d-464e-adc0-6059139058db")
 		)
 		(pin "1"
-			(uuid "83fcae55-6f36-4f0e-893e-f2fbbeec18b3")
+			(uuid "c03d3152-d45a-4a46-b282-4c7ce86f0462")
 		)
 		(instances
 			(project "mainboard"
 				(path "/57f2b6ac-3611-4b16-b8a1-8e91b00e0208/75d4254f-58df-4e98-9caa-2c4b94d613e3"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 262.89 60.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "93d30cb2-0901-45fd-bd86-ce9f51576238")
-		(property "Reference" "Q5"
-			(at 264.922 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 262.89 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 260.985 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 259.08 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 262.89 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ce79618f-8e63-4d42-b2b0-b005656676f4")
-		)
-		(pin "3"
-			(uuid "5daa2a43-7a98-40d5-aab5-66c3cee4b67d")
-		)
-		(pin "1"
-			(uuid "bd0e891f-c9be-419e-a2bc-3db4862bf05c")
-		)
-		(instances
-			(project "mainboard"
-				(path "/57f2b6ac-3611-4b16-b8a1-8e91b00e0208/75d4254f-58df-4e98-9caa-2c4b94d613e3"
-					(reference "Q5")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -4605,79 +4532,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
-		(at 232.41 60.96 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ba05aa54-c7be-4959-82e8-be53c429b0a6")
-		(property "Reference" "Q3"
-			(at 234.442 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2N7002"
-			(at 232.41 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 230.505 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
-			(at 228.6 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
-			(at 232.41 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9af3a82d-1265-4b8a-943c-47dcfb78537b")
-		)
-		(pin "3"
-			(uuid "0a79411d-bde0-4f0b-ba6c-fd951050e423")
-		)
-		(pin "1"
-			(uuid "a502e499-ae3b-4e25-8970-5b7c59ba5db8")
-		)
-		(instances
-			(project "mainboard"
-				(path "/57f2b6ac-3611-4b16-b8a1-8e91b00e0208/75d4254f-58df-4e98-9caa-2c4b94d613e3"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 58.42 35.56 0)
 		(unit 1)
@@ -4748,7 +4602,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7002")
+		(lib_id "Transistor_FET:BSS138")
 		(at 217.17 60.96 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4764,7 +4618,7 @@
 				)
 			)
 		)
-		(property "Value" "2N7002"
+		(property "Value" "BSS138"
 			(at 217.17 67.31 90)
 			(effects
 				(font
@@ -4783,7 +4637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
 			(at 213.36 66.04 0)
 			(effects
 				(font
@@ -4793,7 +4647,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
 			(at 217.17 60.96 0)
 			(effects
 				(font
@@ -4888,6 +4742,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 262.89 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d21cc6ce-38c3-44f0-884a-82fe05b8c26d")
+		(property "Reference" "Q5"
+			(at 264.922 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 262.89 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 260.985 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 259.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 262.89 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "002e97d3-db0b-4be3-96a2-345343dd8375")
+		)
+		(pin "3"
+			(uuid "8ebc7c80-7b60-4330-996b-5c1eef907b1f")
+		)
+		(pin "1"
+			(uuid "62c0f5f2-852b-441a-97f5-44460ad8006f")
+		)
+		(instances
+			(project "mainboard"
+				(path "/57f2b6ac-3611-4b16-b8a1-8e91b00e0208/75d4254f-58df-4e98-9caa-2c4b94d613e3"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 144.78 72.39 270)
 		(unit 1)
@@ -4949,6 +4876,79 @@
 			(project "mainboard"
 				(path "/57f2b6ac-3611-4b16-b8a1-8e91b00e0208/75d4254f-58df-4e98-9caa-2c4b94d613e3"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 240.03 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec25b830-b97f-46cd-9956-799ee7e7e045")
+		(property "Reference" "Q6"
+			(at 237.49 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 246.38 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 245.11 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 245.11 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 240.03 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81ee307b-5232-4913-8cf2-15a21e9bd354")
+		)
+		(pin "3"
+			(uuid "a64dcfb2-b118-4ec0-99c7-5576fc4c079d")
+		)
+		(pin "1"
+			(uuid "f6d52b12-7680-4555-a3bd-f19c2ae6e5ef")
+		)
+		(instances
+			(project "mainboard"
+				(path "/57f2b6ac-3611-4b16-b8a1-8e91b00e0208/75d4254f-58df-4e98-9caa-2c4b94d613e3"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
