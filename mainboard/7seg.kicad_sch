@@ -2899,7 +2899,7 @@
 		(uuid "47cd58ed-6a8a-412a-8b90-a748e94f3554")
 	)
 	(label "CC2"
-		(at 106.68 50.8 180)
+		(at 106.68 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3099,7 +3099,7 @@
 		(uuid "ecd15e4d-8e5c-44e3-8fe9-1c79d419609b")
 	)
 	(label "LED_f"
-		(at 106.68 48.26 180)
+		(at 106.68 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
