@@ -7220,7 +7220,7 @@
 		(uuid "32326bfc-9ef2-453a-8d24-421a59575bee")
 	)
 	(label "USB D-"
-		(at 279.4 76.2 180)
+		(at 279.4 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7410,7 +7410,7 @@
 		(uuid "875d27bc-119d-4fcf-8904-626ed9d1e601")
 	)
 	(label "USB D+"
-		(at 279.4 73.66 180)
+		(at 279.4 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8414,7 +8414,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Pot"
+		(property "Value" "SCL"
 			(at 214.63 83.0579 0)
 			(effects
 				(font
@@ -9285,7 +9285,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Pot"
+		(property "Value" "SDA"
 			(at 231.14 83.0579 0)
 			(effects
 				(font
