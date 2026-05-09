@@ -1,3 +1,3 @@
-for f in *pill_dispenser_HCI*; do
-    mv -- "$f" "${f//pill_dispenser_HCI/HCI_board}"
+for f in *mainboard_v2*; do
+    mv -- "$f" "${f//mainboard/mainboard_v2}"
 done
